@@ -186,38 +186,15 @@ export default function Enquiry() {
       btnText: "Apply Today",
       imageUrl: "/newImges/5.jpg",
     },
-    // { id: 5, title: "Terms Date", btnText: "Learn More", imageUrl: "/05.jpg" },
-    // // {
-    //   id: 6,
-    //   title: "Our Prospectus ",
-    //   btnText: "Get It now",
-    //   imageUrl: "/06.jpg",
-    // },
   ];
   return (
+    <>
     <div>
-      {/* <div className="pt-5 mt-28"> */}
-      {/* <div className="border-gray-300 border-4 rounded-2xl bg-gray-50  p-10 ml-8 flex flex-col items-start justify-start max-w-8xl mr-8  "> */}
-      {/* <Link href={`/`} className="text-lg font-bold mb-2">
-            Admissions
-          </Link> */}
-      {/* <h1 className="text-4xl font-bold mb-4">Join us</h1> */}
-      {/* <p className="text-lg font-bold mb-2">
-            We’re a Top 4% British Private
-          </p> */}
-      {/* <p className="text-lg font-bold mb-6"> */}
-      {/* </p> */}
-      {/* <hr className="my-18 border-yellow-300 " /> */}
-      {/* </div> */}
-      {/* </div> */}
-      {/* <div className="pt-0 ">
-        <hr className="my-18 border-yellow-300 border-t-8 w-full max-w-9xl mx-auto" />
-      </div> */}
       <div className=" mt-28  p-10  ml-8  ">
         <div className="mx-auto grid grid-cols-1  md:grid-cols-3 gap-12 max-w-7xl ">
-          <div className="md:col-span-2 w-auto rounded-[40px] border-4 border-gray-700 h-[1350px] bg-white p-4 md:p-8 flex flex-col  ">
+          <div className="md:col-span-2 w-auto rounded-[40px] border-4 border-gray-700 h-[1620px] bg-white flex flex-col  ">
             <div className="flex flex-col">
-              <div className=" bg-blue-950 rounded-[40px] border-4 border-[#ffa500] text-white font-semibold  text-2xl mt-4 pb-10 gap-3 ">
+              {/* <div className=" bg-blue-950 rounded-[40px] border-4 border-[#ffa500] text-white font-semibold  text-2xl mt-4 pb-10 gap-3 ">
                 <h1 className=" pb-10 text-center  text-2xl lg:text-4xl mt-6">
                   {" "}
                   Registration Form{" "}
@@ -372,48 +349,6 @@ export default function Enquiry() {
                         </p>
                       )}
                     </div>
-                    {/* <div>
-                      <label
-                        htmlFor="studentFirstName"
-                        className="block text-sm font-medium text-gray-700 mb-1"
-                      >
-                        Student's First Name (If not the same as above)*
-                      </label>
-                      <input
-                        type="text"
-                        id="studentFirstName"
-                        name="studentFirstName"
-                        value={formData.studentFirstName}
-                        onChange={handleChange}
-                        className="block w-full border border-gray-300 rounded-lg shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm p-3"
-                      />
-                      {errors.studentFirstName && (
-                        <p className="text-red-500 text-xs mt-1">
-                          {errors.studentFirstName}
-                        </p>
-                      )}
-                    </div>
-                    <div>
-                      <label
-                        htmlFor="studentLastName"
-                        className="block text-sm font-medium text-gray-700 mb-1"
-                      >
-                        Student's Last Name (If not the same as above)*
-                      </label>
-                      <input
-                        type="text"
-                        id="studentLastName"
-                        name="studentLastName"
-                        value={formData.studentLastName}
-                        onChange={handleChange}
-                        className="block w-full border border-gray-300 rounded-lg shadow-sm focus:ring-indigo-500 focus:border-indigo-500 sm:text-sm p-3"
-                      />
-                      {errors.studentLastName && (
-                        <p className="text-red-500 text-xs mt-1">
-                          {errors.studentLastName}
-                        </p>
-                      )}
-                    </div> */}
                     <div>
                       <label
                         htmlFor="studentDOB"
@@ -497,60 +432,31 @@ export default function Enquiry() {
                     >
                       Register
                     </button>
-                    <a target="blank" href="https://form.jotform.com/250732080623449">
+                    <a target="blank" href="https://eu.jotform.com/build/250842707353356?fromMyWorkspace=1">
+                    <p className="text-center mt-2">OR</p>
                     <button
                       type="button"
-                      className="w-full bg-green-500 mt-6 text-white py-3 px-4 rounded-lg shadow-lg hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                      className="w-full bg-green-500 text-white mt-2 py-3 px-4 rounded-lg shadow-lg hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
                     >
                       Register through jotFoam
                     </button>
                     </a>
                   </form>
                 </div>
-              </div>
+              </div> */}
+              <iframe
+                src="https://eu.jotform.com/250842707353356"
+                width="100%"
+                height="1600px"
+                style={{ border: "none" }}
+                className="rounded-[40px]"
+              ></iframe>
+
             </div>
           </div>
           <div className="md:col-span-1 border-4 border-gray-700 rounded-[40px] bg-white p-4">
             {" "}
             <div className="grid grid-cols-1 gap-4">
-              {/* <Link href={`/`}>
-                <div className="relative z-0 w-64 h-64">
-                  <div className="p-0 z-0">
-                    <img
-                      src={`/bannerhero.jpg`}
-                      alt={"ddddd"}
-                      width={250}
-                      height={250}
-                      className="absolute inset-0 h-full w-full object-cover rounded-lg"
-                    />
-                  </div>
-
-                  <div className="absolute inset-0 bg-opacity-50 bg-black text-white p-4 flex items-center justify-center">
-                    <h3 className="text-xl font-bold">
-                      See Our 5 Stars Reviews
-                    </h3>
-                    <div className="flex gap-2 ">
-                      <IoStar className="w-6 h-6 text-yellow-400" />
-                      <IoStar className="w-6 h-6 text-yellow-400" />
-                      <IoStar className="w-6 h-6 text-yellow-400" />
-                      <IoStar className="w-6 h-6 text-yellow-400" />
-                      <IoStar className="w-6 h-6 text-yellow-400" />
-                    </div>
-                    <p>powered by </p>
-                    <div className="flex flex-row">
-                      <PiCalendarStar className="w-6 h-6 text-blue-400" />{" "}
-                      <p>
-                        {" "}
-                        Trust <span className="text-blue-400">Pilot</span>
-                      </p>
-                    </div>
-                  </div>
-                  <div className="absolute bottom-0 left-0 w-full bg-opacity-50 bg-black">
-                    <button className="w-full text-white">Learn More</button>
-                  </div>
-                </div>
-              </Link> */}
-
               {cardData.map((card, index) => {
                 // Define an array of colors you want to use for the buttons
                 const buttonColors = [
@@ -578,18 +484,8 @@ export default function Enquiry() {
                         />
                       </div>
                       <div className="absolute inset-0 bg-opacity-50 bg-black text-white p-4 flex items-left justify-center">
-                        {/* <h3 className="text-xl font-bold">{card.title}</h3> */}
-                        {/* <p className="text-base ml font-bold">
-                          {card.description}
-                        </p> */}
                       </div>
                       <div className="absolute bottom-0 left-0 w-full bg-opacity-50 bg-black items-left justify-center">
-                        {/* <button
-                          // color="primary"
-                          className={`w-full text-white ${buttonColor}`}
-                        >
-                          {card.btnText}
-                        </button> */}
                       </div>
                     </div>
                   </Link>
@@ -600,5 +496,6 @@ export default function Enquiry() {
         </div>
       </div>
     </div>
+    </>
   );
 }

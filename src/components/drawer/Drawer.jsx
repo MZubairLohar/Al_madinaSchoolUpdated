@@ -7,17 +7,35 @@ import {
 } from "@headlessui/react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+import { useState } from "react";
 
 export default function Drawer({ open, drawerHandler }) {
+  const [aboutSubMenuOpen, setAboutSubMenuOpen] = useState(false);
+
   const navigationList = [
-    { link: "/", title: "Secondary" },
-    { link: "/about-us", title: "About us" },
+    // { link: "/", title: "Secondary" },
+    { link: "/", title: "Home" },
+    { title: "About us", hasSubTabs: true },
     { link: "/how-we-teach", title: "How we teach" },
-    { link: "/", title: "Login" },
+    // { link: "/", title: "Login" },
     { link: "/contact-us", title: "Contact" },
-    { link: "/", title: "Register Now" },
-    { link: "/", title: "Support" },
+    // { link: "/", title: "Register Now" },
+    // { link: "/", title: "Support" },
   ];
+
+  const aboutUsSubTabs = [
+    { title: "School Life", link: "/school-life" },
+    { title: "Daily Schedule", link: "/daily-schedule" },
+    { title: "Extracurricular Activities", link: "/extracurricular-activities" },
+    { title: "Integration with Islamic studies", link: "/integration-with-islamic" },
+    { title: "Policy and Procedure", link: "/policies-and-procedure" },
+    { title: "Support Services", link: "/support-services" },
+    { title: "Community and Culture", link: "/community-and-culture" },
+    { title: "Parental Involvement", link: "/parental-involvement" },
+    { title: "Term Dates", link: "/Terms-date" },
+    { title: "Fees", link: "/fees" },
+  ];
+
   return (
     <Dialog open={open} onClose={drawerHandler} className="relative z-10">
       <DialogBackdrop
@@ -45,26 +63,60 @@ export default function Drawer({ open, drawerHandler }) {
                   </button>
                 </div>
               </TransitionChild>
+
               <div className="flex h-full flex-col overflow-y-scroll bg-white py-4 shadow-xl">
                 <div className="px-4 sm:px-6">
                   <img src="./logo.png" alt="logo" className="h-16 lg:h-20" />
                 </div>
+
                 <div className="relative mt-10 flex flex-col gap-2 px-4 sm:px-6">
-                  {/* Your content */}
-                  {navigationList.map((item, index) => (
-                    <Link
-                      key={index}
-                      className="bg-gray-100 rounded-md  p-2 border transition duration-1000 hover:text-sky-400 hover:border-sky-600"
-                      href={item.link}
-                      onClick={drawerHandler}
-                    >
-                      {item.title}
-                    </Link>
-                  ))}
+                  {navigationList.map((item, index) => {
+                    if (item.hasSubTabs) {
+                      return (
+                        <div key={index} className="flex flex-col gap-1">
+                          <button
+                            onClick={() =>
+                              setAboutSubMenuOpen(!aboutSubMenuOpen)
+                            }
+                            className="bg-gray-100 rounded-md p-2 border text-left transition duration-300 hover:text-sky-400 hover:border-sky-600"
+                          >
+                            {item.title}
+                          </button>
+
+                          {aboutSubMenuOpen && (
+                            <div className="ml-4 flex flex-col gap-1">
+                              {aboutUsSubTabs.map((subItem, subIndex) => (
+                                <Link
+                                  key={subIndex}
+                                  href={subItem.link}
+                                  onClick={drawerHandler}
+                                  className="text-sm bg-gray-50 rounded-md p-2 border transition hover:text-sky-500 hover:border-sky-400"
+                                >
+                                  {subItem.title}
+                                </Link>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      );
+                    } else {
+                      return (
+                        <Link
+                          key={index}
+                          className="bg-gray-100 rounded-md p-2 border transition duration-1000 hover:text-sky-400 hover:border-sky-600"
+                          href={item.link}
+                          onClick={drawerHandler}
+                        >
+                          {item.title}
+                        </Link>
+                      );
+                    }
+                  })}
+
                   <Link
                     href={"/Enquiry"}
                     onClick={drawerHandler}
-                    className="justify-end bg-sky-900 transition duration-1000 border hover:text-gray-800 hover:bg-gray-100 hover:border-sky-600 text-gray-100 text-sm xl:text-base uppercase  py-2  px-4 rounded-md font-bold "
+                    className="justify-end bg-sky-900 transition duration-1000 border hover:text-gray-800 hover:bg-gray-100 hover:border-sky-600 text-gray-100 text-sm xl:text-base uppercase py-2 px-4 rounded-md font-bold"
                   >
                     enquire
                   </Link>

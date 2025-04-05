@@ -21,7 +21,7 @@ export const Navbar = () => {
   return (
     <>
       <nav className="border-gray-200 bg-gray-100 fixed w-full top-0 left-0 z-40">
-        <div className="max-w-screen-2xl lg:px-10 flex items-center justify-between mx-auto py-1 px-2">
+        <div className="max-w-screen-2xl lg:px-10 flex flex-wrap items-center justify-between mx-auto py-1 px-2">
           <a
             href="/"
             className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -213,7 +213,7 @@ export const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="hidden lg:flex items-center gap-3 xl:gap-6">
+          <div className="flex items-center gap-3 xl:gap-6">
             <Button link="/Enquiry" title={"register now"} />
             <Button link="/contact-us" title={"enquire"} />
           </div>

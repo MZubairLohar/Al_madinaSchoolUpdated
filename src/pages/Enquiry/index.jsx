@@ -190,9 +190,9 @@ export default function Enquiry() {
   return (
     <>
     <div>
-      <div className=" mt-28  p-10  ml-8  ">
+      <div className=" mt-28  ">
         <div className="mx-auto grid grid-cols-1  md:grid-cols-3 gap-12 max-w-7xl ">
-          <div className="md:col-span-2 w-auto rounded-[40px] border-4 border-gray-700 h-[1620px] bg-white flex flex-col  ">
+          <div className="md:col-span-2 w-full rounded-[40px] border-4 border-gray-700 h-[1620px] bg-white flex flex-col  ">
             <div className="flex flex-col">
               {/* <div className=" bg-blue-950 rounded-[40px] border-4 border-[#ffa500] text-white font-semibold  text-2xl mt-4 pb-10 gap-3 ">
                 <h1 className=" pb-10 text-center  text-2xl lg:text-4xl mt-6">

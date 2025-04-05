@@ -73,7 +73,7 @@ export const Footer = () => {
     },
   ];
   return (
-    <footer className="rounded-[40px]  bg-white max-w-7xl border-4  border-gray-700   mx-auto">
+    <footer className="rounded-[40px] mt-6  bg-white max-w-7xl border-4  border-gray-700   mx-auto">
       <div className="mx-auto w-full  py-4 lg:py-4">
         <div className="md:flex ">
           <div className=" flex flex-col  ">

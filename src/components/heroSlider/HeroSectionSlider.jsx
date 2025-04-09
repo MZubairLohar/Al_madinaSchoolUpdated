@@ -34,6 +34,7 @@ const HeroBannerSlider = () => {
   }, [currentIndex, heroImage]);
 
   return (
+    <>
     <div className="md:h-[370px] lg:h-[650px] mt-40 h-[300px] w-full max-w-7xl border-4 border-gray-700 rounded-[40px] mx-auto flex items-center text-white relative overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-full z-[1]">
         <div className="overflow-hidden w-full h-full flex flex-col justify-center">
@@ -67,23 +68,23 @@ const HeroBannerSlider = () => {
                   // </div>
                   <div className="absolute top-60 mt-6 left-48  lg:ml-22 lg:left-1/3 transform -translate-x-3/4 -translate-y-3/4 lg:top-[550px] sm:top-[50px] md:w-auto md:top-[320px] md:left-1/3 sm:left-1/3 sm:mt-2 w-full">
                     <div className="animate-slide-in-left text-center md:w-[300px] lg:w-auto">
-                      <h2 className="cursor-pointer text-xs sm:text-xs md:text-xl lg:text-2xl font-bold text-[#00477e] hover:text-[#ffa500] transition duration-300 transform hover:scale-105 break-words sm:w-full whitespace-normal">
+                      {/* <h2 className="cursor-pointer text-xs sm:text-xs md:text-xl lg:text-2xl font-bold text-[#00477e] hover:text-[#ffa500] transition duration-300 transform hover:scale-105 break-words sm:w-full whitespace-normal">
                         Where Academic Excellence
                         <span className="hidden sm:inline">
                           {" "}
                           meets Islamic Values
                         </span>{" "}
-                        {/* Default for non-mobile screens */}
+                       
                         <span className="sm:hidden block">
                           {" "}
                           <br /> meets Islamic Values
                         </span>{" "}
-                        {/* Line break for mobile screens */}
-                      </h2>
+                        
+                      </h2> */}
 
-                      <h2 className="cursor-pointer text-xs sm:text-sm md:text-xl lg:text-2xl font-bold tracking-wider text-[#00477e] hover:text-[#ffa500] transition duration-300 transform hover:scale-105 mt-2">
+                      {/* <h2 className="cursor-pointer text-xs sm:text-sm md:text-xl lg:text-2xl font-bold tracking-wider text-[#00477e] hover:text-[#ffa500] transition duration-300 transform hover:scale-105 mt-2">
                         Learn Anywhere, Anytime.
-                      </h2>
+                      </h2> */}
                     </div>
                   </div>
                 )}
@@ -153,6 +154,7 @@ const HeroBannerSlider = () => {
         style={{ backgroundImage: `url(/img/mask3.svg)` }}
       ></div>
     </div>
+    </>
   );
 };
 

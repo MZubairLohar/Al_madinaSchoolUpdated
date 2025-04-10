@@ -161,12 +161,12 @@ export const FamiliesLoveSec = () => {
         <AnimatedComponentLeft>
           <div className="grid grid-cols-2 gap-2 justify-between lg:relative">
             <img
-              className="w-80 h-96 lg:w-60 lg:h-80 -rotate-3"
+              className="h-60 sm:w-80 sm:h-80 lg:w-60 md:-rotate-3"
               src={"/07.jpg"}
               alt="familyImage"
             />
             <img
-              className="w-80 h-96 lg:absolute lg:w-60 lg:h-80 rotate-12 top-5 left-56"
+              className="h-60 sm:w-80 sm:h-80 lg:w-60 md:rotate-12 top-5 lg:absolute left-56"
               src={"/hijab-girl.jpg"}
               alt="familyImage"
             />
@@ -182,7 +182,7 @@ export const FamiliesLoveSec = () => {
                 />
               </div>
             </AnimationPopUp>
-            <p className="text-lg pt-5 font-bold tracking-tight text-gray-900 md:text-xl lg:text-lg">
+            <p className="text-lg pt-5 font-bold ml-2 tracking-tight text-gray-900 md:text-xl lg:text-lg">
               Choose Al-Madinah Online School for An Education That Combines
               Academic Excellence With The Flexibility And Support Of Online
               Learning, All Within A Framework Of Strong Islamic Values.

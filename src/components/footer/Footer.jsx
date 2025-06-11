@@ -21,53 +21,53 @@ export const Footer = () => {
   const [dropdown, setDropDown] = useState(false);
   const data = [
     {
-      img: "/newImges/1.jpg",
+      img: "./newImges/1.jpg",
       link: "Joel A. Hofer",
       title: "Head of Mddile School",
     },
 
     {
-      img: "/newImges/2.jpg",
+      img: "./newImges/2.jpg",
       link: "Alan",
       title: "Leader of Bussiness and Economics",
     },
     {
-      img: "/newImges/3.jpg",
+      img: "./newImges/3.jpg",
       link: "Alan",
       title: "Leader of Bussiness and Economics",
     },
     {
-      img: "/newImges/5.jpg",
+      img: "./newImges/5.jpg",
       link: "Alan",
       title: "Leader of Bussiness and Economics",
     },
     {
-      img: "/newImges/4.jpg",
+      img: "./newImges/4.jpg",
       link: "Eva Snap ",
       title: "Head of faculty-English",
     },
     {
-      img: "/newImges/8.jpg",
+      img: "./newImges/8.jpg",
       link: "farhan Ahmed",
       title: "Leader of Bussiness and Economics",
     },
     {
-      img: "/newImges/9.jpg",
+      img: "./newImges/9.jpg",
       link: "Sea Edward",
       title: "Leader of Learnng History",
     },
     {
-      img: "/newImges/10.jpg",
+      img: "./newImges/10.jpg",
       link: "Sea Edward",
       title: "Leader of Learnng History",
     },
     {
-      img: "/newImges/6.jpg",
+      img: "./newImges/6.jpg",
       link: "Sea Edward",
       title: "Leader of Learnng History",
     },
     {
-      img: "/newImges/11.jpg",
+      img: "./newImges/11.jpg",
       link: "Sea Edward",
       title: "Leader of Learnng History",
     },

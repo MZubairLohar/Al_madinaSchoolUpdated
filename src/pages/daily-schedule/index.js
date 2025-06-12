@@ -257,7 +257,7 @@ export default function DailySchedule() {
             <div className="flex justify-center">
               <img
                 className="rounded-xl w-full h-auto max-w-xs md:max-w-sm lg:max-w-md"
-                src="/schedule.jpg"
+                src="/9.jpg"
                 alt="image"
               />
             </div>

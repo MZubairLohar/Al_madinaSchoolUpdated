@@ -258,7 +258,7 @@ export default function ExtracurricularActivites() {
               <img
                 // className="rounded-xl w-full h-auto max-w-xs md:max-w-sm lg:max-w-md"
                 className="rounded-xl "
-                src="/extraActivites.jpg"
+                src="/4.jpg"
                 alt="image"
               />
             </div>

@@ -255,7 +255,7 @@ export default function indexSchoolLife() {
         <div className="grid grid-cols-1 mx-auto lg:grid-cols-2 p-10 lg:px-10 gap-6 mt-10 lg:mt-5">
           <AnimatedComponentLeft>
             <div className="flex justify-center">
-              <img src="/School.jpg" alt="image" />
+              <img src="/10.jpg" alt="image" />
             </div>
           </AnimatedComponentLeft>
           <AnimatedComponentRight>

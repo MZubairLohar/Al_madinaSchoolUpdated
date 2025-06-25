@@ -9,10 +9,10 @@ export const SchoolCard = () => {
   useEffect(() => {
     const fetchSchoolData = async () => {
       try {
-        const middleRes = await fetch("https://al-madina-dashboard-backend-production-2642.up.railway.app/api/middleschool");
+        const middleRes = await fetch("https://admin-dashboard-al-madinah-school.vercel.app/api/middleschool/upload");
         const middleData = await middleRes.json();
 
-        const seniorRes = await fetch("https://al-madina-dashboard-backend-production-2642.up.railway.app/api/seniorschool");
+        const seniorRes = await fetch("https://admin-dashboard-al-madinah-school.vercel.app/api/seniorschool/upload");
         const seniorData = await seniorRes.json();
 
         const combinedData = [];

@@ -7,7 +7,7 @@ export const HowWeTeach = () => {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    fetch("https://al-madina-dashboard-backend-production-2642.up.railway.app/api/teachingmethodology")
+    fetch("https://admin-dashboard-al-madinah-school.vercel.app/api/teachingmethodology/upload")
       .then((res) => res.json())
       .then((json) => setData(json))
       .catch((err) => console.error("Fetch error:", err));

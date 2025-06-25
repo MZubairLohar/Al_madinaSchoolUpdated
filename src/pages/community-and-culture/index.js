@@ -257,7 +257,7 @@ export default function CommunityAndCulture() {
             <div className="flex justify-center">
               <img
                 className="rounded-xl w-full h-auto max-w-xs md:max-w-sm lg:max-w-md"
-                src="/3.jpg"
+                src="/culture.jpg"
                 alt="image"
               />
             </div>

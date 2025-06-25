@@ -11,7 +11,7 @@ export const FamiliesLoveSec = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch('https://admin-dashboard-al-madinah-school.vercel.app/api/whychoose/upload');
+        const res = await fetch('https://al-madina-dashboard-backend-production-2642.up.railway.app/api/whychoose');
         const data = await res.json();
         if (data && data.length > 0) {
           setContent(data[0]);

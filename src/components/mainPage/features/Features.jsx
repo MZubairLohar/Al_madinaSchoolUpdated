@@ -8,7 +8,7 @@ export const Features = () => {
   useEffect(() => {
     const fetchFeatures = async () => {
       try {
-        const res = await axios.get("https://admin-dashboard-al-madinah-school.vercel.app/api/features/upload"); // Adjust if needed
+        const res = await axios.get("https://al-madina-dashboard-backend-production-2642.up.railway.app/api/features"); // Adjust if needed
         setFeatures(res.data);
       } catch (error) {
         console.error("Failed to fetch features:", error);

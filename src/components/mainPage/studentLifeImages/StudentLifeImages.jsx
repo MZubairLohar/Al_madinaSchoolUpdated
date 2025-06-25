@@ -7,7 +7,7 @@ export const StudentLifeImages = () => {
   const [images, setImages] = useState([]);
 
   useEffect(() => {
-    fetch("https://admin-dashboard-al-madinah-school.vercel.app/api/learningjourney/upload") // Your GET endpoint
+    fetch("https://al-madina-dashboard-backend-production-2642.up.railway.app/api/learningjourney") // Your GET endpoint
       .then((res) => res.json())
       .then((data) => {
         if (Array.isArray(data) && data.length > 0) {

@@ -14,7 +14,6 @@ import { SchoolTrust } from "../components/mainPage/schoolTrust/SchoolTrust";
 import { SignUpForOurNext } from "../components/mainPage/signUpFornextEvent/SignUpForOurNext";
 import { StudentLifeImages } from "../components/mainPage/studentLifeImages/StudentLifeImages";
 import { StudentSupport } from "../components/mainPage/studentSupport/StudentSupport";
-import {Features} from "../components/mainPage/features/Features";
 
 export default function Home() {
   return (
@@ -23,7 +22,6 @@ export default function Home() {
       <KeyStagesText />
       <SchoolCard />
       <FamiliesLoveSec />
-      <Features />
       <SchoolTrust />
       <SchoolExperience />
       <StudentLifeImages />

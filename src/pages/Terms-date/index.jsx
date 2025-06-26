@@ -21,7 +21,7 @@ function index() {
               }}
               whileHover={{ scale: 1.2, color: "" }} // Scale and color change on hover
             >
-              School Year 2024 to 2025
+              School Year 2025 to 2026
             </motion.h2>
 
             <div className="mt-8 flex flex-col md:flex-row gap-3">
@@ -90,7 +90,7 @@ function index() {
               }}
               whileHover={{ scale: 1.2, color: "" }} // Scale and color change on hover
             >
-              School Year 2024 to 2025
+              School Year 2025 to 2026
             </motion.h2>
             <div className="mt-8 flex flex-col md:flex-row gap-4">
               {["Autumn Term 2025", "Spring Term 2026", "Summer Term 2026"].map(

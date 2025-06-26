@@ -36,3 +36,6 @@ export default function Home() {
     </div>
   );
 }
+
+// export async function getStaticProps() {
+//   const res = await fetch("https://api.example.com/data");

@@ -85,28 +85,28 @@ export const MiddleAbout = () => {
                   },
                   {
                     color: "bg-green-600",
-                    title: "History",
+                    title: "Arabic",
                     description:
                       " Students learn about significant historical events and figures, developing an understanding of how the past shapes the present.",
                   },
                   {
                     color: "bg-sky-600",
-                    title: "Geography",
+                    title: "Islamic Studies",
                     description:
                       "The study of physical and human geography helps students understand the complexities of our world and the environment. ",
                   },
-                  {
-                    color: "bg-orange-600",
-                    title: "Modern Foreign Languages ",
-                    description:
-                      " We offer Arabic, providing students with the opportunity to become proficient in additional languages.",
-                  },
-                  {
-                    color: "bg-orange-600",
-                    title: "IT  ",
-                    description:
-                      "  Students acquire essential skills in coding, programming, and digital literacy.",
-                  },
+                  // {
+                  //   color: "bg-orange-600",
+                  //   title: "Modern Foreign Languages ",
+                  //   description:
+                  //     " We offer Arabic, providing students with the opportunity to become proficient in additional languages.",
+                  // },
+                  // {
+                  //   color: "bg-orange-600",
+                  //   title: "IT  ",
+                  //   description:
+                  //     "  Students acquire essential skills in coding, programming, and digital literacy.",
+                  // },
                   {
                     color: "bg-yellow-600",
                     title: "Physical Education",
@@ -260,24 +260,24 @@ export const MiddleAbout = () => {
                     description:
                       "Emphasis on proficiency in Arabic to enhance Quranic understanding and communication.",
                   },
-                  {
-                    color: "bg-sky-600",
-                    title: "Geography",
-                    description:
-                      "The study of physical and human geography helps students understand the complexities of our world and the environment. ",
-                  },
-                  {
-                    color: "bg-orange-600",
-                    title: "Modern Foreign Languages ",
-                    description:
-                      " We offer Arabic, providing students with the opportunity to become proficient in additional languages.",
-                  },
-                  {
-                    color: "bg-orange-600",
-                    title: "IT  ",
-                    description:
-                      "  Students acquire essential skills in coding, programming, and digital literacy.",
-                  },
+                  // {
+                  //   color: "bg-sky-600",
+                  //   title: "Geography",
+                  //   description:
+                  //     "The study of physical and human geography helps students understand the complexities of our world and the environment. ",
+                  // },
+                  // {
+                  //   color: "bg-orange-600",
+                  //   title: "Modern Foreign Languages ",
+                  //   description:
+                  //     " We offer Arabic, providing students with the opportunity to become proficient in additional languages.",
+                  // },
+                  // {
+                  //   color: "bg-orange-600",
+                  //   title: "IT  ",
+                  //   description:
+                  //     "  Students acquire essential skills in coding, programming, and digital literacy.",
+                  // },
                   {
                     color: "bg-yellow-600",
                     title: "Physical Education",

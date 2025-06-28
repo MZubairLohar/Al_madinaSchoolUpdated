@@ -11,7 +11,7 @@ export default function DailySchedule() {
           <AnimatedComponentLeft>
             <div className="flex justify-center">
               <img
-                className="rounded-2xl w-[320px] sm:w-[400px] md:w-[480px] lg:w-[520px] h-[500px] scale-y-105"
+                className="rounded-2xl w-[320px] mt-7 mb-7 sm:w-[400px] md:w-[480px] lg:w-[520px] h-[500px] scale-y-105"
                 src="/schedule.jpg"
                 alt="Schedule"
               />
@@ -25,8 +25,8 @@ export default function DailySchedule() {
                 initial={{ opacity: 0, scale: 0.2 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{
-                  duration: 20,
-                  delay: 0.3,
+                  duration: 0,
+                  delay: 0.1,
                   ease: [0, 0.71, 0.2, 1.01],
                 }}
               >

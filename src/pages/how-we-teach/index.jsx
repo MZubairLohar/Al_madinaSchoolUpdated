@@ -89,6 +89,12 @@ const SlidingImageSection = () => {
               "Use of technology and multimedia to make lessons dynamic and engaging.",
           },
           {
+            color: "bg-green-600",
+            title: "AI Powered Assesments",
+            description:
+              "We use a third-party AI-based platform to conduct regular assessments and quizzes. This helps track student progress and reinforces learning by identifying areas for improvement and mastery.",
+          },
+          {
             color: "bg-orange-600",
             title: "Collaborative Learning",
             description:
@@ -99,12 +105,6 @@ const SlidingImageSection = () => {
             title: "Inquiry-Based Learning",
             description:
               "Encouraging students to ask questions and explore topics in depth.",
-          },
-          {
-            color: "bg-green-600",
-            title: "Continuous Feedback",
-            description:
-              "Regular assessments and feedback to support student growth and improvement.",
           },
         ].map((item, index) => (
           <div key={index} className="flex pt-10 items-center">

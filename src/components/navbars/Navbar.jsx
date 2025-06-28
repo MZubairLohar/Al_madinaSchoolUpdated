@@ -128,7 +128,7 @@ export const Navbar = () => {
                         }
                         className="block font-semibold py-2 px-4 hover:bg-gray-200 rounded-lg"
                       >
-                        Policy and procedure
+                        Policies
                       </Link>
                     </li>
                   </div>

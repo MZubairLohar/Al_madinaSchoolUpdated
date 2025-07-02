@@ -24,7 +24,7 @@ export default function indexSchoolLife() {
                   delay: 0.3,
                   ease: [0, 0.71, 0.2, 1.01],
                 }}>
-                  School Life
+                  Introduction
                 </motion.h3>
                 </div>
 

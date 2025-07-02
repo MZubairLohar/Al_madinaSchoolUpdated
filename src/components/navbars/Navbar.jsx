@@ -86,7 +86,7 @@ export const Navbar = () => {
                         onClick={() => handleTabClick("/school-life")}
                         className="block font-semibold py-2 px-4 hover:bg-gray-200 rounded-lg"
                       >
-                        School Life
+                        Introduction
                       </Link>
                     </li>
                     <li>

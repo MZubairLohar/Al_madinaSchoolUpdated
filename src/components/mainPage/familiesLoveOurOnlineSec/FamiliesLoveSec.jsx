@@ -53,7 +53,7 @@ export const FamiliesLoveSec = () => {
                 />
               </div>
             </AnimationPopUp>
-            <p className="text-lg pt-5 font-bold ml-2 tracking-tight text-gray-900 md:text-xl lg:text-lg">
+            <p className="text-lg pt-5 font-bold ml-2 tracking-tight text-[#00477e] md:text-xl lg:text-lg">
               {content.description}
             </p>
           </div>

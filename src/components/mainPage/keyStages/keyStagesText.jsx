@@ -34,13 +34,13 @@ export const KeyStagesText = () => {
     >
       <div className="flex justify-center">
         <AnimationPopUp>
-          <div>
+          <div className="mt-4">
             <Button link={""} title={"Introduction"} />
           </div>
         </AnimationPopUp>
       </div>
-      <div className="text-center gap-8 pt-3 mt-5 rounded-[40px]">
-        <p className="mt-4 text-md lg:text-lg font-bold leading-8 text-[#00477e] transition duration-300 transform hover:scale-105">
+      <div className="text-center flex items-center justify-center gap-8 pt-3 mt-5 rounded-[40px]">
+        <p className=" p-4 text-md lg:text-lg font-bold leading-8 text-[#00477e] transition duration-300 transform ">
           {content}
         </p>
       </div>

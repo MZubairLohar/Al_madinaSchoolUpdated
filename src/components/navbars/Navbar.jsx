@@ -79,10 +79,10 @@ export const Navbar = () => {
                 {/* Sub-tabs */}
                 <ul className="absolute -left-40 flex w-[600px] place-items-center justify-between hidden group-hover:flex bg-gray-100 rounded-lg shadow-lg p-10 space-x-2">
                   {/* Left-side sub-tabs */}
-                  <div className="flex flex-col    inline-block  space-y-2">
+                  <div className="flex flex-col inline-block  space-y-2">
                     <li>
                       <Link
-                        href="/school-life"
+                        href="/introduction"
                         onClick={() => handleTabClick("/school-life")}
                         className="block font-semibold py-2 px-4 hover:bg-gray-200 rounded-lg"
                       >

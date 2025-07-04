@@ -14,7 +14,7 @@ export const SchoolTrust = () => {
   useEffect(() => {
     const fetchContent = async () => {
       try {
-        const res = await fetch("https://al-madina-dashboard-backend-production-2642.up.railway.app/api/teachlearn/upload");
+        const res = await fetch("https://admin-dashboard-al-madinah-school.vercel.app/api/teachlearn/upload");
         const data = await res.json();
 
         if (Array.isArray(data) && data.length > 0) {

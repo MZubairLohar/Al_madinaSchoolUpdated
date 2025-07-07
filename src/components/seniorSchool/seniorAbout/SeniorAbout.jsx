@@ -9,20 +9,6 @@ export default function SeniorAbout() {
     <div className=" mt-28 pb-10 px-5">
       <div className="grid grid-cols-1 lg:grid-cols-1 border-4 border-gray-700 rounded-[40px]  bg-white gap-10 lg:gap-5 mx-auto my-20 py-20 pb-18 max-w-7xl">
         <div className="flex flex-col place-items-center  gap-5 px-5">
-          {/* <div className="flex items-start">
-            <motion.h3
-              className="cursor-pointer text-xl sm:text-2xl md:text-3xl border-2 border-gray-700 rounded-lg w-auto p-3 md:p-4 inline-block bg-[rgb(250,204,20)] text-black font-semibold"
-              initial={{ opacity: 0, scale: 0.2 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{
-                duration: 0,
-                delay: 0.3,
-                ease: [0, 0.71, 0.2, 1.01],
-              }}
-            >
-              Extracurricular Activities
-            </motion.h3>
-          </div> */}
           <motion.h3
             className=" border-2 border-gray-700 rounded-[40px]  cursor-pointer text-3xl  w-auto p-4 inline-block bg-[rgb(250,204,20)] text-black font-semibold "
             initial={{ opacity: 0, scale: 0.2 }}
@@ -49,7 +35,7 @@ export default function SeniorAbout() {
                 {[
                   {
                     color: "bg-sky-600",
-                    title: "English Language and Literature",
+                    title: "English Language and Literature ",
                     description:
                       "Students develop advanced reading, writing, and analytical skills, exploring a variety of literary genres and texts.",
                   },
@@ -57,7 +43,7 @@ export default function SeniorAbout() {
                     color: "bg-orange-600",
                     title: "Mathematics ",
                     description:
-                      "Our mathematics program focuses on developing strong numeracy skills, logical reasoning, and problem-solving abilities. ",
+                      "Our mathematics program focuses on developing strong numeracy skills, logical reasoning, and problem-solving abilities.",
                   },
                   {
                     color: "bg-yellow-600",
@@ -67,27 +53,15 @@ export default function SeniorAbout() {
                   },
                   {
                     color: "bg-green-600",
-                    title: "History",
+                    title: "Arabic",
                     description:
-                      " Students learn about significant historical events and figures, developing an understanding of how the past shapes the present.",
+                      " As part of our modern language oering, students will study Arabic, focusing on reading, writing, comprehension, basic conversational skills, and foundational grammar.",
                   },
                   {
                     color: "bg-sky-600",
-                    title: "Geography",
-                    description:
-                      "The study of physical and human geography helps students understand the complexities of our world and the environment. ",
-                  },
-                  {
-                    color: "bg-orange-600",
-                    title: "Modern Foreign Languages ",
-                    description:
-                      " We offer Arabic, providing students with the opportunity to become proficient in additional languages.",
-                  },
-                  {
-                    color: "bg-orange-600",
-                    title: "IT  ",
-                    description:
-                      "  Students acquire essential skills in coding, programming, and digital literacy.",
+                    title: " Religious Education",
+                    // description:
+                    //   "The study of physical and human geography helps students understand the complexities of our world and the environment. ",
                   },
                   {
                     color: "bg-yellow-600",
@@ -116,10 +90,8 @@ export default function SeniorAbout() {
             </div>
           </div>
         </div>
-        {/* </AnimatedComponentRight> */}
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-1 border-4 border-gray-700 rounded-[40px]  bg-white gap-10 lg:gap-5 mx-auto my-20 py-20 pb-18 max-w-7xl">
-        {/* <AnimatedComponentRight> */}
+      {/* <div className="grid grid-cols-1 lg:grid-cols-1 border-4 border-gray-700 rounded-[40px]  bg-white gap-10 lg:gap-5 mx-auto my-20 py-20 pb-18 max-w-7xl">
         <div className="flex flex-col place-items-center  gap-5 px-5">
           <motion.h3
             className=" border-2 border-gray-700 rounded-[40px]  cursor-pointer text-3xl  w-auto p-4 inline-block bg-[rgb(250,204,20)] text-black font-semibold "
@@ -139,9 +111,10 @@ export default function SeniorAbout() {
             and moral development. Key Islamic subjects include
           </h2>
           <p className="text-lg font-semibold"></p>
-          {/* <div className="border-4  mx-28 mt-36 mb-6 rounded-[40px] border-gray-700  bg-white "> */}
           <div className="  flex flex-col gap-8 md:flex-cols-2 w-full ">
-            {/* Text Section */}
+
+
+
             <div className="flex-1 mt-5 text-black   p-6">
               <div className="space-y-7">
                 {[
@@ -190,7 +163,7 @@ export default function SeniorAbout() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

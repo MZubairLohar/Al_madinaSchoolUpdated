@@ -73,11 +73,11 @@ export const SchoolCard = () => {
                 <span className="text-xl font-medium py-3 text-gray-200">{item.key_stage}</span>
                 <span className="text-sm text-gray-200 py-3">{item.year}</span>
                 <div className="flex justify-center items-center mt-4 md:mt-6">
-                  <AnimationPopUp>
+                  {/* <AnimationPopUp> */}
                     <div>
                       <Button link={item.link} title={item.linkTitle} />
                     </div>
-                  </AnimationPopUp>
+                  {/* </AnimationPopUp> */}
                 </div>
               </div>
             </div>

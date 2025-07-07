@@ -143,7 +143,7 @@ export const Navbar = () => {
                         Support Services
                       </Link>
                     </li>
-                    <li>
+                    {/* <li>
                       <Link
                         href="/community-and-culture "
                         onClick={() => handleTabClick("/community-and-culture")}
@@ -151,7 +151,7 @@ export const Navbar = () => {
                       >
                         Community and Culture
                       </Link>
-                    </li>
+                    </li> */}
                     <li>
                       <Link
                         href="/parental-involvement "

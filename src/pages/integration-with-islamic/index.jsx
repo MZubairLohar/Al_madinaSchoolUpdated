@@ -79,9 +79,9 @@ const IslamicIntegration = () => {
                   },
                   {
                     color: "bg-yellow-600",
-                    title: "Fiqh and Aqeedah ",
+                    title: "Fiqh",
                     description:
-                      "Understanding Islamic jurisprudence and beliefs.",
+                      "Understanding Islamic jurisprudence",
                   },
                   {
                     color: "bg-green-600",

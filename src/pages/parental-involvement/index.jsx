@@ -11,8 +11,8 @@ export default function ParentalInvolvement() {
           <AnimatedComponentLeft>
             <div className="flex justify-center">
               <img
-                className="rounded-xl w-full h-auto max-w-xs md:max-w-sm lg:max-w-lg"
-                src="/newImges/parent.jpg"
+                className="rounded-xl w-full max-w-xs md:max-w-sm lg:max-w-lg h-[350px]"
+                src="/Capture.PNG"
                 alt="image"
               />
             </div>

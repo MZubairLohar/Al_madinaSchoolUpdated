@@ -38,7 +38,7 @@ export default function DailySchedule() {
                 <br /><br />
                 Throughout the day, students will have direct access to their teachers for any academic support or questions. Whether during lessons, break times, or designated support slots, our staff are available to assist and guide students whenever needed.
                 <br /><br />
-                The daily timetable includes a balanced mix of core subjects, Islamic Studies, and character development, providing a holistic and enriching educational experience.
+                The daily timetable includes a balanced mix of core subjects, Religious Studies, and character development, providing a holistic and enriching educational experience.
               </p>
             </div>
           </AnimatedComponentRight>

@@ -9,10 +9,10 @@ export default function ExtracurricularActivites() {
       <div className="bg-white place-items-center rounded-[40px] max-w-7xl h-auto border-4 border-gray-700 mx-4 md:mx-0">
         <div className="grid grid-cols-1 mx-auto lg:pb-6 lg:grid-cols-2 px-6 lg:px-10 gap-6 mt-10 lg:mt-10">
           <AnimatedComponentLeft>
-            <div className="flex justify-center items-center h-[700px] w-full">
+            <div className="flex justify-center items-center h-[630px] w-full">
               <img
                 // className="rounded-xl w-full h-auto max-w-xs md:max-w-sm lg:max-w-md"
-                className="rounded-2xl w-[320px] sm:w-[400px] md:w-[480px] lg:w-[600px] h-[690px]"
+                className="rounded-2xl w-[320px] -mt-4 sm:w-[400px] md:w-[480px] lg:w-[600px] h-[610px]"
                 //className="rounded-xl "
                 src="/extraActivites.jpg"
                 alt="image"
@@ -41,9 +41,9 @@ export default function ExtracurricularActivites() {
               <li className="mt-4">
                 Bi-Monthly Robotic Workshops (In-Person) – Held in major cities across the UK, these sessions give students a chance to engage in hands-on STEM activities while socialising and building friendships with their peers.
               </li>
-              <li>
+              {/* <li>
               Naat and Qur’an Recitation Competitions – Encouraging confidence, spiritual growth, and love for Islamic expression through beautiful recitation and praise of the Prophet ﷺ.
-              </li>
+              </li> */}
               <li>
               Online Challenges & Projects – Including creative writing, presentations, and academic contests to enhance skills in a fun and supportive environment.
               </li>

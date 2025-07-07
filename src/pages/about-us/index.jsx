@@ -258,7 +258,11 @@ export default function AboutUs() {
         <div className="grid grid-cols-1 mx-auto lg:grid-cols-2 px-5 lg:px-10 gap-8 pb-6 mt-10">
           <AnimatedComponentLeft>
             <div>
-              <img className=" rounded-xl" src="/newImges/mission-statement-pic.png" alt="image" />
+              <img
+                className=" rounded-xl"
+                src="/newImges/mission-statement-pic.png"
+                alt="image"
+              />
             </div>
           </AnimatedComponentLeft>
           <AnimatedComponentRight>
@@ -279,13 +283,18 @@ export default function AboutUs() {
               </div>
 
               <p className="text-base md:text-lg  text-gray-700 font-bold">
-              At Al-Madinah Online School, we are committed to providing a comprehensive education that
-integrates core academic subjects such as Maths, English, Science, Arabic, and Religious Education
-with a strong focus on universal values like compassion, integrity, and social responsibility. Our
-vision is to empower students with the knowledge and skills to excel academically while fostering
-respect, understanding, and ethical character. Through innovative teaching methodologies and
-personalised learning experiences, we prepare students to thrive and make a positive impact in a
-diverse and interconnected global community
+                At Al-Madinah Online School, our mission is to provide an
+                exceptional and varied education that nurtures the intellectual,
+                spiritual, and moral development of every child. We are
+                committed to fostering a love for learning grounded in strong
+                ethical values, while also offering a broad curriculum that
+                prepares students for all aspects of life. By cultivating
+                compassionate, confident individuals who are ready to contribute
+                positively to society, we aim to inspire and empower our
+                students to achieve their full potential in both their academic
+                and personal journeys. Through a comprehensive curriculum,
+                personalised support, and a vibrant online community, we strive
+                to create a holistic educational experience.
               </p>
             </div>
           </AnimatedComponentRight>
@@ -323,15 +332,15 @@ diverse and interconnected global community
               <p className="text-base md:text-lg mt-4 text-gray-700 font-bold">
                 At Al-Madinah Online School, we are committed to providing a
                 comprehensive education that integrates core academic subjects
-                such as Maths, English, Science, and Islamic studies with the
-                ethical framework and principles of Islam. Our mission is to
-                empower students with the knowledge and skills to excel
-                academically while nurturing a strong foundation in Islamic
-                values such as compassion, integrity, and social responsibility.
+                such as Maths, English, Science, Arabic, and Religious Education
+                with a strong focus on universal values like compassion,
+                integrity, and social responsibility. Our vision is to empower
+                students with the knowledge and skills to excel academically
+                while fostering respect, understanding, and ethical character.
                 Through innovative teaching methodologies and personalised
-                learning experiences in both academic and Islamic studies, we
-                prepare students to impact society and thrive in a diverse
-                global community positively.
+                learning experiences, we prepare students to thrive and make a
+                positive impact in a diverse and interconnected global
+                community.
               </p>
             </div>
           </AnimatedComponentRight>

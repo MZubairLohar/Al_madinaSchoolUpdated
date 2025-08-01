@@ -29,9 +29,9 @@ export default function indexSchoolLife() {
                 </div>
 
               <p className="text-base sm:text-lg md:text-lg mt-4 md:mt-4 text-gray-700 font-bold">
-              At Al-Madinah Online School, our mission is to support families who have chosen home education by providing a high-quality, structured learning experience rooted in strong moral and spiritual values. As an independent online education provider, we work alongside parents, who retain full legal responsibility for their child’s education, to deliver expert teaching in key subjects such as English, Maths, and Science.
+              At Al-Madinah Online School, our mission is to provide a high-quality, structured education through an accessible and flexible online platform. We are committed to nurturing students academically, morally, and spiritually, helping them grow into confident, compassionate individuals.
               <br/>
-              Our role is to offer educational support to home-educated students. Through a comprehensive curriculum, personalised guidance, and a supportive online community, we aim to nurture confident, compassionate learners who are well-prepared for life’s academic and personal challenges.
+              As an online school, we deliver expert teaching in core subjects such as English, Maths, and Science, alongside a values-based approach to character development. Our aim is to support students from all communities in reaching their full potential through a balanced curriculum, personalised support, and a strong sense of belonging within our virtual school environment.
               </p>
             </div>
           </AnimatedComponentRight>

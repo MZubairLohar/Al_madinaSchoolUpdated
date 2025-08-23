@@ -20,7 +20,8 @@ export const HowWeTeach = () => {
       <div
         className="max-w-7xl border-4 border-gray-700 rounded-[40px] relative mx-auto"
         style={{
-          backgroundImage: `url(${data.image})`,
+          // backgroundImage: `url(${data.image})`,
+          backgroundImage: `url('nnn.png')`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
         }}

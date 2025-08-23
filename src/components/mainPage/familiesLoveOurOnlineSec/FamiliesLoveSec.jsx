@@ -33,12 +33,14 @@ export const FamiliesLoveSec = () => {
           <div className="grid grid-cols-2 gap-2 justify-between lg:relative">
             <img
               className="h-60 sm:w-80 sm:h-80 lg:w-60 md:-rotate-3"
-              src={content.image?.[0]}
+              // src={content.image?.[0]}
+              src="why-choose1.png"
               alt="Left Image"
             />
             <img
               className="h-60 sm:w-80 sm:h-80 lg:w-60 md:rotate-12 top-5 lg:absolute left-56"
-              src={content.image?.[1]}
+              // src={content.image?.[1]}
+              src="why-choose2.png"
               alt="Right Image"
             />
           </div>

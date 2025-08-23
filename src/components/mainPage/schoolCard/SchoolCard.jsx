@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Button } from "../button/Button";
 import AnimationBottom from "../../animations/AnimationBottom";
-import AnimationPopUp from "../../animations/AnimationPopup";
 
 export const SchoolCard = () => {
   const [schoolCardList, setSchoolCardList] = useState([]);
@@ -19,7 +18,8 @@ export const SchoolCard = () => {
 
         if (middleData && middleData.section) {
           combinedData.push({
-            studentImg: middleData.image?.[0] || "./fallback.png",
+            // studentImg: middleData.image?.[0] || "./fallback.png",
+            studentImg: "girl1.png",
             schoolName: middleData.section,
             key_stage: middleData.keystage,
             year: middleData.years,
@@ -30,7 +30,8 @@ export const SchoolCard = () => {
 
         if (seniorData && seniorData.section) {
           combinedData.push({
-            studentImg: seniorData.image?.[0] || "./fallback.png",
+            // studentImg: seniorData.image?.[0] || "./fallback.png",
+            studentImg: "boy.jpg",
             schoolName: seniorData.section,
             key_stage: seniorData.keystage,
             year: seniorData.years,
@@ -65,7 +66,8 @@ export const SchoolCard = () => {
                 <div className="flex justify-center items-center">
                   <img
                     className="w-34 h-40 object-cover"
-                    src={item.studentImg}
+                    // src={item.studentImg}
+                    src={`/${item.studentImg}`} 
                     alt={`${item.schoolName || "School"} student`}
                   />
                 </div>

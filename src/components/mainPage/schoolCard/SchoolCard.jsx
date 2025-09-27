@@ -76,9 +76,9 @@ export const SchoolCard = () => {
                 <span className="text-sm text-gray-200 py-3">{item.year}</span>
                 <div className="flex justify-center items-center mt-4 md:mt-6">
                   {/* <AnimationPopUp> */}
-                    <div>
+                    {/* <div>
                       <Button link={item.link} title={item.linkTitle} />
-                    </div>
+                    </div> */}
                   {/* </AnimationPopUp> */}
                 </div>
               </div>

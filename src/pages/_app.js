@@ -71,7 +71,7 @@ export default function App({ Component, pageProps }) {
 
       {/* Content */}
       <div className="relative isolate px-4 overflow-hidden">
-        {pathName !== "/admin" ? <Navbar /> : null}
+        {/* {pathName !== "/admin" ? <Navbar /> : null} */}
         {loading && <Loader />}
         <Component {...pageProps} />
         {pathName !== "/admin" ? <Footer /> : null}
